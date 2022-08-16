@@ -1,0 +1,304 @@
+body{
+	background-color: #f7f7f7;
+	font-size: 16px;
+}
+.asterik{
+	font-size: 25px;
+	font-weight: bold;
+	position:absolute;
+    color: red;
+	top:4px;
+	right: 10px;
+	     
+}
+
+.login input{
+	margin-bottom: 10px;
+}
+.login .form-control{
+	background-color: #efefef;
+}
+.login .btn{
+	background-color: #285699;
+	border-color: #285699;
+
+}
+
+
+
+
+/*Profile Page*/
+.block{
+
+	margin: 30px 0 0;
+
+}
+/*end Profile Page*/
+.My_ads .card-header{
+	background-color: #00255c;
+	color: whitesmoke;
+}
+.information .card-header{
+	background-color: #00255c;
+	color: whitesmoke;
+	
+}
+.information .card-body ul li{
+padding: 10px;
+list-style: none;
+}
+.my_comments .card-header{
+	background-color: #00255c;
+	color: whitesmoke;
+	
+}
+.information .card-body ul li span{
+	display:inline-block;
+	width:140px;
+	font-weight: bolder;
+}
+
+.information .card-body i{
+padding-right: 25px;
+}
+.information .card-body ul li:nth-child(odd){
+background-color:#bdd3f5;
+
+}
+
+
+/*start Login Form pagfe*/
+.loginPage{
+margin-top: 200px;
+}
+
+.loginPage .the_error{
+	color :#a81100;
+	max-width: 300px;
+	margin: auto;
+
+	}
+.the_error .MSG{
+	text-align: start;
+	background-color: #FFF;
+	margin-top: 4px;
+	padding-left: 10px;
+	border-left:#a81100 solid 6px;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.input-container{
+position: relative;
+}
+.loginPage form{
+ max-width: 300px;
+ margin: auto;
+}
+.loginPage h1{
+font-size: 50px;
+font-weight: bold;
+color: #888;
+}
+.loginPage [data-class=login].active{
+	color:#285699;
+}
+
+.loginPage [data-class=signup].active{
+	color:#00522c;
+}
+
+.loginPage h1 span {
+	cursor: pointer;
+}
+
+.loginPage .signup{
+	display: none;
+}
+
+.loginPage .signup input{
+	margin-bottom: 10px;
+background-color: #efefef;
+}
+
+.loginPage .signup .btn{
+	background-color: #00522c;
+	border-color: #00522c;
+}
+.upper-bar{
+	padding: 8px;
+	background-color: white;
+}
+
+.sub{
+padding: 22px 1px;
+
+}
+
+/*end Login Form page*/
+.show-pass{position: relative;
+    right: -429px;
+    top: -36px;
+}
+.main_table{
+	text-align: center;
+	box-shadow: 3px 5px 30px #0000006b;
+
+}
+.main_table td{
+	background-color: #fff;
+	vertical-align: middle; ;
+
+}
+.main_table tr:first-child td{
+	background-color: #333;
+	color: #FFF;
+	text-align: center;
+
+}
+.main_table .btn{
+padding: 2px 10px;
+
+}
+.main_table .pending  {
+	border-color: red;
+
+}
+
+/*bootstrap edit*/
+
+.navbar-brand{
+
+font-size:1em ;
+}
+
+/*start dashboard Page*/
+.home-stats .stat .info{
+position: relative;
+top:10px;
+
+
+}
+.home-stats .stat i{
+font-size:100px ;
+position: relative;
+float: left;
+top: 10px;
+	}
+.home-stats .stat{
+	background-color: #ccc;
+	padding: 20px;
+	font-size: 15px;
+	color: #fff;
+	border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+}
+.home-stats .stat span {
+	display: block;
+	font-size: 70px;
+	float: right;
+	position: relative;
+	right: 40px;
+
+
+
+}
+.latest{
+	margin-top: 35px;
+}
+
+.home-stats .st-members {
+	background-color: #3498db;
+}
+
+.home-stats .st-pendingM {
+	background-color: #c0392b;
+}
+.home-stats .st-items {
+	background-color: #d35400;
+}
+.home-stats .st-comments{
+	background-color: #8e44ad;
+}
+
+.home-stats  a{
+	text-decoration: none;
+	color: black;
+}
+.user a{
+	text-decoration: none;
+	color: black;
+	}
+.reply a{
+	text-decoration: none;
+	color: black;
+	}
+.user a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+
+.nice-mss{
+		background-color: #fff;
+		padding: 10px;
+		margin: 10px 0;
+		border-left: 10px solid #080;
+	}
+.Latest-user li:nth-child(odd){
+	background-color: #EEE;
+}
+
+.Latest-user li{
+	padding: 6px;
+	overflow: hidden;
+}
+.Latest-user .btn-success, .btn-danger,.btn-info{
+padding: 2px 5px;
+}
+
+/*end dashboard Page
+*/
+
+
+#Description{
+	padding:0px 0px 0px 150px;
+}
+
+
+/*category page start*/
+td{
+	position: relative;
+	overflow: hidden;
+
+}
+
+.cat:hover .hidden-buton{
+	top: 3.5px;
+
+}
+.ho:hover td{
+	background-color:#EEE ;
+}
+.hidden-buton{
+	    right: 35px;
+	transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    top: -34px;
+    position: absolute;
+   
+ 
+
+}
+
+.ordering a{
+	color: #888;
+	text-decoration: none;
+}
+
+.ordering .active{
+	color: red;
+	text-decoration: none;
+}
+
+/*category page End*/
