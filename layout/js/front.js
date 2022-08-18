@@ -17,11 +17,16 @@ $("input, select").each(function() {
         if ($(this).attr('required')){
 
         $(this).before('<span class="asterik">*</span>');
+
         
    }
 });
 
 
+$(".live").keyup(function(){
+	
+	$("."+$(this).data('class')).text($(this).val());
+});
 
 
 //confirmation code 

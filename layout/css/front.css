@@ -6,9 +6,13 @@ body{
 	font-size: 25px;
 	font-weight: bold;
 	position:absolute;
+	overflow: hidden;
     color: red;
-	top:4px;
-	right: 10px;
+	left: 510px;
+
+	display: block;
+
+	
 	     
 }
 
