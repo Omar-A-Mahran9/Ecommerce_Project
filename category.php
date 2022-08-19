@@ -5,7 +5,7 @@ include "ini.php";
 <h1 class='text-center'>
 <?php
 
-echo 'Welcom' ."    ".$_GET['cat_name']
+echo 'Welcom' ."    "."Show category"
 ?>
 </h1>
 
@@ -22,7 +22,7 @@ foreach($row as $re){
 <img src="https://www.freepnglogos.com/uploads/notebook-png/download-laptop-notebook-png-image-png-image-pngimg-2.png" class="card-img-top" alt="..."> <div class="card-body"> 
 <div class="clearfix mb-3"> 
 <span class="float-start badge rounded-pill bg-primary">
-<?php echo $re['Name'] ?></span> <span class="float-end price-hp"><?php echo $re['Price'] ?>&euro;</span> </div> <h5 class="card-title"><?php echo $re['Description'] ?></h5> <div class="text-center my-4"> <a href="#" class="btn btn-warning">Check offer</a> </div> </div> </div> </div>
+    <a href="profItem.php?Itemid=<?php echo $re['itemID'] ?>"><?php echo $re['Name'] ?></a></span> <span class="float-end price-hp"><?php echo $re['Price'] ?>&euro;</span> </div> <h5 class="card-title"><?php echo $re['Description'] ?></h5> <div class="text-center my-4"> <a href="#" class="btn btn-warning">Check offer</a> </div> </div> </div> </div>
 
     <?php
 }
