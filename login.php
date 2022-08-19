@@ -13,12 +13,14 @@ if ($_SERVER['REQUEST_METHOD']=="POST"){
     $pass=$_POST['Password'];
     $hashPas=sha1($pass);
  
-    $stmt=$db->prepare("SELECT Username , Password FROM users WHERE Username=? AND Password=? ");
+    $stmt=$db->prepare("SELECT UserID , Username , Password FROM users WHERE Username=? AND Password=? ");
     $stmt->execute(array($user , $hashPas));
     $count=$stmt->rowCount();
     $row=$stmt->fetch();
     if ($count>0){
-        $_SESSION['User']=$user; //Register Session name
+        $_SESSION['User']=$row['Username']; //Register Session name
+        $_SESSION['user_ID']=$row['UserID']; //Register Session ID
+
         header('Location:index.php');
         exit();
         

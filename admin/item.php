@@ -89,7 +89,7 @@ else{
 		?>
 		<div class="container">
 		<h1 class="text-center">Add New Item</h1>
-		<form class="form-horizontal" action="?do=insert" method="Post">
+		<form class="form-horizontal" action="?do=insert" method="POST">
 			<div class="mb-3 mt-3">
 				<label class="col-sm-2 control-label" >Name of Item</label>
 			<input type="text" name="nameItem" class="form-control"  placeholder="Please insert Item Name" required>
