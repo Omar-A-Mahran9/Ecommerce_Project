@@ -16,6 +16,30 @@ body{
 	     
 }
 
+
+
+.item-info ul li{
+padding: 10px;
+list-style: none;
+}
+.my_comments .card-header{
+	background-color: #00255c;
+	color: whitesmoke;
+	
+}
+.item-info ul li span{
+	display:inline-block;
+	width:140px;
+	font-weight: bolder;
+}
+
+.item-info ul li:nth-child(odd){
+background-color:#bdd3f5;
+
+}
+.custom{
+	border: rgb(0, 23, 114) solid;
+}
 .login input{
 	margin-bottom: 10px;
 }
@@ -28,7 +52,10 @@ body{
 
 }
 
-
+.badge a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
 
 
 /*Profile Page*/
